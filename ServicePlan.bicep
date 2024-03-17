@@ -1,3 +1,5 @@
+@description('This is a description for namePrefix')
+
 param namePrefix string 
 param location string = resourceGroup().location
 param sku string = 'B1'

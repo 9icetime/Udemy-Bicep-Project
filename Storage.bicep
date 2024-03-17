@@ -1,3 +1,7 @@
+@minLength(5)
+@maxLength(24)
+@description('StorageName must have min 5 chars and max of 24 chars')
+
 param storagedveusaccount string 
 param location string = 'eastus'
 
